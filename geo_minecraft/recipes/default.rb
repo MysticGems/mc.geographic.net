@@ -18,7 +18,7 @@ end
 # set properties for the server
 server_properties 'lemur' do
   settings({
-    :motd => 'This is the Fantasy Geographic Society Minecraft server',
+    :motd => 'Lemurs! Lemurs everywhere!',
     :enable_command_block => true,
     :gamemode => 1,
     :force_gammemode => true,
