@@ -10,7 +10,7 @@ minecraft_depend 'dependencies' do
 end
 
 # installs the server and service files
-bukkit_server 'lemur' do
+minecraft_server 'lemur' do
   eula true
   action :create
 end
@@ -20,7 +20,11 @@ server_properties 'lemur' do
   settings({
     :motd => 'This is the Fantasy Geographic Society Minecraft server',
     :enable_command_block => true,
-    :difficulty => 2
+    :gamemode => 1,
+    :pvp => false,
+    :max_players: 5,
+    :generate_structures: true,
+    :difficulty => 0
   })
 end
 
@@ -33,10 +37,10 @@ end
 #   })
 # end
 
-bukkit_plugin 'worldedit' do
-  servers 'lemur'
-  action :install
-end
+# bukkit_plugin 'worldedit' do
+#   servers 'lemur'
+#   action :install
+# end
 
 # starts the server
 minecraft_service 'lemur' do
