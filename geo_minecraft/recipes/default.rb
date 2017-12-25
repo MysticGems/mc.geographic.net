@@ -21,6 +21,7 @@ server_properties 'lemur' do
     :motd => 'This is the Fantasy Geographic Society Minecraft server',
     :enable_command_block => true,
     :gamemode => 1,
+    :force_gammemode => true;
     :pvp => false,
     :max_players => 5,
     :generate_structures => true,
