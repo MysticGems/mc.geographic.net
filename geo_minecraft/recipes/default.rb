@@ -13,7 +13,7 @@ end
 minecraft_server 'lemur' do
   eula true
   action :update
-  reset_world: true
+  reset_world true
 end
 
 # set properties for the server
