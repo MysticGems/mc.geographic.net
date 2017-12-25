@@ -22,8 +22,8 @@ server_properties 'lemur' do
     :enable_command_block => true,
     :gamemode => 1,
     :pvp => false,
-    :max_players: 5,
-    :generate_structures: true,
+    :max_players => 5,
+    :generate_structures => true,
     :difficulty => 0
   })
 end
