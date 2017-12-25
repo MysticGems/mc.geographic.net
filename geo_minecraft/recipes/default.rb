@@ -18,7 +18,7 @@ end
 # set properties for the server
 server_properties 'lemur' do
   settings({
-    :motd => 'Lemurs! Lemurs everywhere!',
+    :motd => 'Invisible lemurs! Invisible lemurs everywhere!',
     :enable_command_block => true,
     :gamemode => 1,
     :force_gammemode => true,
