@@ -12,7 +12,8 @@ end
 # installs the server and service files
 minecraft_server 'lemur' do
   eula true
-  action :create
+  action :create :update
+  reset_world: true
 end
 
 # set properties for the server
