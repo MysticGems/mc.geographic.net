@@ -1,0 +1,44 @@
+{
+  "name": "geo_minecraft",
+  "description": "Wrapper cookbook for configuring minecraft.geographic.net",
+  "long_description": "Does all those Minecrafty things",
+  "maintainer": "Lee Davis",
+  "maintainer_email": "lee@geographic.net",
+  "license": "All Rights Reserved",
+  "platforms": {
+  },
+  "dependencies": {
+    "minecraft-server": "~> 0.1.4"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.1.0",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false,
+  "chef_versions": [
+    [
+      ">= 12.5"
+    ]
+  ],
+  "ohai_versions": [
+
+  ],
+  "gems": [
+
+  ]
+}
